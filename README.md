@@ -17,3 +17,13 @@ The objectives of this project are to:
 - Configure route tables and an Internet Gateway.
 - Deploy an Ubuntu EC2 instance.
 - Apply basic cloud network security controls.
+
+## AWS Services and Technologies
+
+- **Amazon VPC:** Used to create an isolated virtual network.
+- **Amazon EC2:** Used to deploy an Ubuntu virtual server.
+- **Internet Gateway:** Configured to provide internet connectivity.
+- **Amazon EBS:** Used for EC2 storage.
+- **Security Groups:** Used to control network traffic.
+- **AWS KMS:** Used for EBS volume encryption.
+- **Ubuntu Server:** Operating system running on the EC2 instance.
