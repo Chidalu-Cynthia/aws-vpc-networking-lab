@@ -40,3 +40,13 @@ The objectives of this project are to:
 - Internet Gateway: Created and attached to the VPC.
 
 The network was designed to distribute subnets across two Availability Zones, providing network segmentation and a foundation for building resilient cloud infrastructure.
+
+## Implementation
+
+### 1. VPC Creation
+
+Created a custom Amazon Virtual Private Cloud (VPC) with the following configuration:
+
+- IPv4 CIDR block: `10.0.0.0/16`
+- Purpose: To provide an isolated network environment for deploying and managing cloud resources.
+- Network design: The VPC was designed to support public and private subnets across two Availability Zones.
