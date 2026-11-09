@@ -7,3 +7,13 @@ This project documents my hands-on experience building and configuring a Virtual
 The goal is to understand how AWS networking works in practice, including network segmentation, subnet design, routing, and the deployment of resources within a cloud environment.
 
 The lab is also an opportunity to explore how network architecture and security configurations contribute to building a more secure and resilient cloud infrastructure.
+
+## Project Objectives
+
+The objectives of this project are to:
+
+- Understand AWS VPC networking.
+- Create public and private subnets.
+- Configure route tables and an Internet Gateway.
+- Deploy an Ubuntu EC2 instance.
+- Apply basic cloud network security controls.
