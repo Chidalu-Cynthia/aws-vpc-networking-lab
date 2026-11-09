@@ -27,3 +27,16 @@ The objectives of this project are to:
 - **Security Groups:** Used to control network traffic.
 - **AWS KMS:** Used for EBS volume encryption.
 - **Ubuntu Server:** Operating system running on the EC2 instance.
+
+## Network Architecture
+
+### VPC Configuration
+
+- VPC IPv4 CIDR: `10.0.0.0/16`
+- Number of Availability Zones: 2
+- Total number of subnets: 4
+- Public subnets: 2
+- Private subnets: 2
+- Internet Gateway: Created and attached to the VPC.
+
+The network was designed to distribute subnets across two Availability Zones, providing network segmentation and a foundation for building resilient cloud infrastructure.
